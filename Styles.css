@@ -1,0 +1,112 @@
+/*========================================================
+ This is the link for color browser only support 140 color
+ https://htmlcolorcodes.com/color-names/ 
+ Just CTRL+ Space to get auto suggest
+=========================================================*/
+
+h2 {
+    background-color: pink;
+    border-color: rebeccapurple;
+    color: indigo;
+    text-align: center;
+    font-weight: 600;
+    /* underline, underline dotted, underline dotted red, green wavy underline, underline overline*/
+    text-decoration: underline red;
+    line-height: inherit;
+    /*normal, 2.5, 3em, 150%, 32px */
+    letter-spacing: 0vmax;
+}
+
+
+/* For Color
+    1. simply type name ==> EG:- red
+    2. RGB way: Each rgb goes from 0 to 255 ==> EG:- rgb(51, 0, 255);
+    3. Hexadecimal way: 0-9 & a,b,c,d,e,f ==>EG:- #ffff00  r g b *(2) most used shorter
+    */
+
+
+/* button {
+   
+    color: rgb(51, 0, 255);
+    background-color: #ffff00;
+} */
+
+p {
+    font-size: larger;
+    /* 1in, 12px, 0.8em, 80%, large, Just CTRL+ Space */
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    /*cursive, and some font cannot be seen in MAC vs WINDOW */
+    color: red;
+    background-color: lightcyan;
+}
+
+body {
+    background-color: #52694c;
+}
+
+a {
+    /*This will remove the under line in link Just CTRL+ Space*/
+    text-decoration: none;
+}
+
+
+/* PSEUDO CLASS */
+
+
+/* color change on mouse hover if we use same btn thice it can loose battle*/
+
+button:hover {
+    color: orangered;
+    background-color: black;
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+button:active {
+    background-color: green;
+}
+
+h3::first-letter {
+    font-size: 50px;
+}
+
+p::first-line {
+    color: green;
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+P::selection {
+    background-color: greenyellow;
+}
+
+h2,
+h3 {
+    color: red;
+}
+
+
+/* order matter goes top to bottom */
+
+h3 {
+    color: hotpink;
+}
+
+button:hover {
+    font-size: 30px;
+}
+
+
+/*  https://specificity.keegan.st/ */
+
+
+/* SPECEFICITY  ID===>THEN CLASS==> THEN ELEMENT  AND WHICH IS MORE SPECEFIC THAT WIN*/

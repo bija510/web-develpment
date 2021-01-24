@@ -1,0 +1,91 @@
+/* Not commonly used This will apply to all  called "Universal selector" */
+
+
+/* *{
+    background: pink;
+} */
+
+button {
+    border-radius: 15px;
+    /* This will rounded the corner of button */
+    background: yellow;
+}
+
+
+/* multiple header */
+
+h1,
+h2 {
+    font-size: smaller;
+    color: Red;
+}
+
+
+/* This is using ID */
+
+#btn2 {
+    background-color: lightgreen;
+}
+
+
+/* This is using class can be greop means 2 or more can have same class name */
+
+.btn3 {
+    background-color: lightpink;
+}
+
+.name {
+    background-color: lightgrey;
+}
+
+
+/* descendant selector means select all <a>'s that are nested inside an li */
+
+.links a {
+    color: black;
+}
+
+footer a {
+    color: darkgreen;
+}
+
+
+/* Adjacent selector h1 + p{color: red;} */
+
+
+/* Direct child select only the li that are direct children of a div element */
+
+h2+button {
+    font-size: 25px;
+}
+
+footer>a {
+    color: darkorchid;
+    font-style: italic;
+    font-weight: 700;
+}
+
+* {
+    background-color: rgb(116, 196, 111);
+}
+
+input[type="password"] {
+    color: red;
+}
+
+a[href*="www"] {
+    color: orangered;
+    font-size: larger;
+}
+
+a[href$=".org"] {
+    color: hotpink;
+    font-weight: 800;
+    font-size: larger;
+}
+
+a[href^="#"] {
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+}
