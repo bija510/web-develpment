@@ -1,0 +1,17 @@
+section {
+    background-color: red;
+    width: 800px;
+    height: 30%;
+}
+
+div {
+    background-color: yellow;
+    width: 70%;
+    height: 800px;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: pink;
+    line-height: 200%;
+}
